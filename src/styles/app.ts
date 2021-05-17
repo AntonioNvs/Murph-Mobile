@@ -21,7 +21,7 @@ export const Text = styled.Text<IText>`
   color: ${(props: IText) => props.color};
 
   align-self: ${(props: IText) => props.direction};
-  text-align: ${(props:IText) => (props.direction === 'flex-start' ? 'right' : 'left')}
+  text-align: ${(props:IText) => (props.direction === 'flex-start' ? 'right' : 'left')};
   margin-bottom: 4px;
 `;
 

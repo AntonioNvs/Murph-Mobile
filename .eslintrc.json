@@ -21,6 +21,7 @@
       "@typescript-eslint"
   ],
   "rules": {
+    "no-restricted-syntax": "off",
     "react/no-array-index-key": "off",
     "linebreak-style": "off",
     "no-use-before-define": "off",
